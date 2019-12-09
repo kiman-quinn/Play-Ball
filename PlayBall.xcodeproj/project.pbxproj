@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97028F65239DFCA900FD4789 /* ScoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97028F64239DFCA900FD4789 /* ScoringViewController.swift */; };
+		97073349239EA4C700F1B805 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97073348239EA4C700F1B805 /* TermsViewController.swift */; };
+		9707334D239EA68400F1B805 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707334C239EA68400F1B805 /* Definition.swift */; };
+		9707334F239EACAA00F1B805 /* TermDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707334E239EACAA00F1B805 /* TermDetailViewController.swift */; };
 		975E7495238F65DF0079F68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E7494238F65DF0079F68E /* AppDelegate.swift */; };
 		975E7497238F65DF0079F68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E7496238F65DF0079F68E /* SceneDelegate.swift */; };
 		975E7499238F65DF0079F68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975E7498238F65DF0079F68E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97028F64239DFCA900FD4789 /* ScoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringViewController.swift; sourceTree = "<group>"; };
+		97073348239EA4C700F1B805 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		9707334C239EA68400F1B805 /* Definition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		9707334E239EACAA00F1B805 /* TermDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetailViewController.swift; sourceTree = "<group>"; };
 		975E7491238F65DF0079F68E /* PlayBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975E7494238F65DF0079F68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		975E7496238F65DF0079F68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,10 @@
 			children = (
 				975E7494238F65DF0079F68E /* AppDelegate.swift */,
 				975E7496238F65DF0079F68E /* SceneDelegate.swift */,
+				9707334C239EA68400F1B805 /* Definition.swift */,
+				9707334E239EACAA00F1B805 /* TermDetailViewController.swift */,
+				97073348239EA4C700F1B805 /* TermsViewController.swift */,
+				97028F64239DFCA900FD4789 /* ScoringViewController.swift */,
 				975E7498238F65DF0079F68E /* ViewController.swift */,
 				975E749A238F65DF0079F68E /* Main.storyboard */,
 				975E749D238F65E30079F68E /* Assets.xcassets */,
@@ -140,7 +152,11 @@
 			files = (
 				975E7499238F65DF0079F68E /* ViewController.swift in Sources */,
 				975E7495238F65DF0079F68E /* AppDelegate.swift in Sources */,
+				9707334F239EACAA00F1B805 /* TermDetailViewController.swift in Sources */,
+				97028F65239DFCA900FD4789 /* ScoringViewController.swift in Sources */,
 				975E7497238F65DF0079F68E /* SceneDelegate.swift in Sources */,
+				9707334D239EA68400F1B805 /* Definition.swift in Sources */,
+				97073349239EA4C700F1B805 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDHL4J42MU;
 				INFOPLIST_FILE = PlayBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDHL4J42MU;
 				INFOPLIST_FILE = PlayBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
